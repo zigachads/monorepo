@@ -4,7 +4,7 @@
     .paths = .{
         "./crypto.zig",
         "./ssl.zig",
-        "./err_data.c",
+        "./err_data.cc",
         "./build.zig",
         "./build.zig.zon",
     },

@@ -1,0 +1,17 @@
+.{
+    .name = "boringssl",
+    .version = "0.0.1",
+    .paths = .{
+        "./crypto.zig",
+        "./ssl.zig",
+        "./err_data.c",
+        "./build.zig",
+        "./build.zig.zon",
+    },
+    .dependencies = .{
+        .boringssl_source = .{
+            .url = "https://boringssl.googlesource.com/boringssl/+archive/8c6b0c04f19f5a6a13af3e29a6a4bb6784cb2bd7.tar.gz",
+            .hash = "1220acc432c609c87549e236124f7322ddb3f51cea4d3afd5fa8ce6fa4fd21a27b28",
+        },
+    },
+}
